@@ -1,0 +1,55 @@
+body{
+    background-image: url(images/fon.jpg);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+li{
+   float: left;
+   list-style: none;
+}
+ul{
+   display: flex;
+   padding: 0;
+   justify-content: center;
+
+   padding: 15px;
+}
+
+a:hover{
+   background-color: silver;
+}
+img {
+   margin: 0 15px 15px 15px;
+   background-color: #d6daff;
+   border-radius: 65px 0 65px 0;
+   box-shadow: 3px 3px 12px 1px #e2e2e2;
+   border: 1px solid #c2c2c2;
+} 
+h2{
+   color: aliceblue;
+   width: auto;
+   font-size: 30px;
+   text-align: center;
+}
+p{
+   color: azure;
+   margin: 5px 25px;
+   font-size: 18px;
+}
+a {
+    background-color: white;
+    color: black; /*цвет ссылки белый*/
+    display: block; /*занять все пространство для этого блока*/
+    font: bold 13px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none; /*убрать подчеркивание*/
+    border: 1px solid #c2c2c2;
+   }
+h3{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 22px;
+}
